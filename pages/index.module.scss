@@ -1,7 +1,20 @@
 // Place CSS here.
 
 .header {
-  background: var(--brand-teal);
+  background: var(--brand-navy);
+  text-align: center;
+
+  h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+      font-size: 48px;
+    }
+  }
+}
+
+.countries {
 }
 
 .footer {

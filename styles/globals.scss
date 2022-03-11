@@ -3,22 +3,24 @@
 * {
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
 }
 
 body {
   // TravelLocal brand colours
-  --brand-teal: #007C80;
-  --brand-navy: #13294B;
-  --brand-elephant: #475D76;
-  --brand-sand: #EEDBCC;
-  --brand-stone: #F4F0ED;
+  --brand-teal: #007c80;
+  --brand-navy: #13294b;
+  --brand-elephant: #475d76;
+  --brand-sand: #eedbcc;
+  --brand-stone: #f4f0ed;
   --brand-white: #ffffff;
   --brand-yellow: #f1a931;
   --brand-orange: #f8935a;
@@ -29,9 +31,8 @@ a {
   color: inherit;
   text-decoration: underline var(--brand-navy);
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: var(--brand-navy);
   }
 }
-
-
